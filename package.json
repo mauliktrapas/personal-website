@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://mauliktrapas.github.io/my-personal-website",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "gh-pages": "^1.1.0",
+    "jquery": "^3.2.1",
+    "react": "^16.1.1",
+    "react-avatar-editor": "^10.3.0",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "popper": "^1.0.0"
+  }
+}
