@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
     return(
-        <div className="container skill mb-5" id="Skills">
+        <div className="container skill mb-5" id="skills">
            <h3 className="mt-4 text-center">Skills</h3>
             <div className="row">
                 <div className="col-sm-6">
@@ -16,10 +16,10 @@ function Skills() {
                         <div className="java progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Java</div>
                     </div>
                     <div className="progress mt-4 progress-height">
-                        <div className="data-structure progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Data Structure</div>
+                        <div className="algorithm progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Data Structure</div>
                     </div>
                     <div className="progress mt-4 progress-height">
-                       <div className="algorithm progress-bar" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Algorithms</div>
+                       <div className="data-structure progress-bar" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Algorithms</div>
                     </div>
                     <div className="progress mt-4 progress-height">
                        <div className="reactJS progress-bar" role="progressbar"  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">ReactJS</div>

@@ -1,26 +1,22 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "personal_website",
+  "version": "0.0.0",
   "private": true,
-  "homepage": "https://mauliktrapas.github.io/my-personal-website",
-  "dependencies": {
-    "bootstrap": "^4.0.0-beta.2",
-    "gh-pages": "^1.1.0",
-    "jquery": "^3.2.1",
-    "react": "^16.1.1",
-    "react-avatar-editor": "^10.3.0",
-    "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
-  },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "node ./bin/www",
+    "client": "node start-client.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "nodemailer": "^4.4.1",
+    "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
-    "popper": "^1.0.0"
+    "concurrently": "^3.5.1"
   }
 }

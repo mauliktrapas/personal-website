@@ -27,7 +27,7 @@ function Projects() {
                 <h5 className="card-title">Dynamic ​Memory​ ​Allocator</h5>
                 <h6 className=" card-subtitle text-muted">Tools : C </h6>
                 <p className="card-text">I have used explicit ​free ​list ​to ​improve​ ​performance ​of ​dynamic​ ​memory allocator​(made with implicit free list) ​which ​can ​handle​ ​malloc, ​realloc ​and ​free requests</p>
-                <a href="http://github.com/mauliktrapas/dynamic-memory-allocator" class="btn btn-primary">Go To code</a>
+                <a href="http://github.com/mauliktrapas/dynamic-memory-allocator" className="btn btn-primary">Go To code</a>
             </div>
             <div className="card-body bg-white w-75 align-self-center rounded mt-4">
                 <h5 className="card-title">Tiny Shell</h5>
@@ -35,7 +35,7 @@ function Projects() {
                 <p className="card-text">I have written code to handle bg, fg, exit, list jobs command and SIGCHLD, SIGINT, SIGSTP handler</p>
                 <a href="https://github.com/mauliktrapas/shell-project" className="btn btn-primary">Go To code</a>
             </div>
-            <div className="card-body bg-white w-75 align-self-center rounded mt-4">
+            <div className="card-body bg-white w-75 align-self-center rounded mt-4 mb-4">
                 <h5 className="card-title">Calculator</h5>
                 <h6 className=" card-subtitle text-muted">Tools : ReactJS + HTML + CSS </h6>
                 <p className="card-text"></p>

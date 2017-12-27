@@ -7,6 +7,7 @@ import About from './components/about';
 import Experience from './components/experience';
 import Skills from './components/skills';
 import Projects from './components/projects';
+import Contact from './components/contactme';
 
 ReactDOM.render(
     <div>
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Experience />
         <Skills/>
         <Projects/>
+        <Contact/>
     </div>,
 
     document.getElementById('root'),

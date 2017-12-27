@@ -1,0 +1,61 @@
+.about{
+    background-color: lightgray;
+}
+
+.progress-height{
+    height: 25px;
+}
+
+.color{
+    background-color: red;
+}
+
+.cpp{
+    width:90%;
+}
+
+.c{
+    width:85%;
+}
+
+.java{
+    width: 80%;
+}
+
+.data-structure{
+    width:93%;
+}
+
+.algorithm{
+    width:87%;
+}
+
+.reactJS{
+    width:78%;
+}
+
+.nodeJS{
+    width:60%;
+}
+
+.html{
+    width: 85%;
+}
+
+.bootstrap{
+    width: 75%;
+}
+
+.postgreSQL{
+    width: 90%;
+}
+
+.mongoDB{
+    width: 80%;
+}
+
+.git{
+    width:80%;
+}
+
+
