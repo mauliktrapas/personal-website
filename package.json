@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
+    "start": "concurrently \"node ./bin/www\" \"npm run client\"",
     "client": "node start-client.js"
   },
   "dependencies": {
